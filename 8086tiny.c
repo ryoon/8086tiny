@@ -7,6 +7,7 @@
 
 #include <time.h>
 #include <sys/timeb.h>
+#include <sys/types.h>
 #include <memory.h>
 
 #ifndef _WIN32
