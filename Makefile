@@ -28,5 +28,8 @@ no_graphics: 8086tiny.c
 		${LDFLAGS} -o 8086tiny
 	strip 8086tiny
 
+bios: bios_source/bios.asm
+	nasm -o bios bios_source/bios.asm
+
 clean:
 	rm 8086tiny
